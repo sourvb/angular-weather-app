@@ -1,0 +1,90 @@
+body, html, div {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 100%;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.weather-widget {
+	width: 370px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #000000;
+    margin: 60px;
+    padding: 15px;
+    background-color: #22899c;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather-widget h1 {
+	color: #FFFFFF;
+	margin: 5px 0;
+	font-size: 25px;
+	font-weight: normal;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.weather-widget h3 {
+	color: #FFFFFF;
+	margin: 0 0 15px 0;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.weather-widget h3 span {
+	float: right;
+}
+
+.weather-widget .loading {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.weather-widget .link {
+	cursor: pointer;
+}
+
+.weather-widget label {
+	color: #FFFFFF;
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.weather-widget input {
+	font-size: 12px;	
+}
+
+.weather-widget button,
+.weather-widget p,
+.weather-widget h3 span {
+	font-size: 12px;
+}
+
+.weather-widget p {
+	color: #FFFFFF;
+	margin: 10px 0;
+}
+
+.weather-widget .weather-data, 
+.weather-widget .weather-footer {
+	clear: both;
+	width: 100%;
+}
+
+.weather-widget .weather-footer {
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+
+.weather-widget .weather-data .right-section,
+.weather-widget .weather-data .left-section {
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
